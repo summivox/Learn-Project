@@ -23,6 +23,14 @@
 				"*://learn.tsinghua.edu.cn/MultiLanguage/lesson/student/course_locate.jsp*"
 			],
 			"js" : ["addException.js"]
+		},
+		{
+			"matches":[
+				"*://learn.tsinghua.edu.cn/MultiLanguage/public/bbs/*"
+
+			],
+			"js" : ["editor.js"],
+			"all_frames" : true
 		}
 	],
 	"permissions" : ["*://learn.tsinghua.edu.cn/*", "tabs"],
@@ -32,5 +40,8 @@
 		"48" : "L48.png",
 		"128" : "L128.png"
 	},
-	"web_accessible_resources":["learn.inject.js"]
+	"web_accessible_resources":[
+		"learn.inject.js",
+		"libs/editor/*"
+	]
 }
